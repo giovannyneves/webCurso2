@@ -1,10 +1,10 @@
  const btn = document.getElementById("btnMudaLayout")
 
 function mudaTexto(){
-    if(btn.innerText === "Linhas"){
-        btn.innerText = "Blocos"
-    }else{
+    if(btn.innerText === "Blocos"){
         btn.innerText = "Linhas"
+    }else{
+        btn.innerText = "Blocos"
     }
 
 }
@@ -18,3 +18,4 @@ function mudaLayout(){
 
 btn.addEventListener("click", mudaTexto)
 btn.addEventListener("click", mudaLayout)
+btn.classList.remove("no-js")
