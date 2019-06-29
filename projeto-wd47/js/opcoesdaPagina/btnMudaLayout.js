@@ -1,4 +1,5 @@
- const btn = document.getElementById("btnMudaLayout")
+
+const btn = document.getElementById("btnMudaLayout")
 
 function mudaTexto(){
     if(btn.innerText === "Blocos"){
